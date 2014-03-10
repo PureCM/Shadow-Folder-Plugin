@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Plugin_ShadowFolder_Config.xml - rename to Plugin_ShodowFolder_1.xml (or _2, _3 for multiple etc.) and set Enabled to true-->
+<Config>
+  <!--Set Enabled to true to enable the plugin instance-->
+  <Enabled>false</Enabled>
+
+  <!--If this is enabled then logging information will be written to log.txt in the plugin directory-->
+  <EnableLog>false</EnableLog>
+
+  <!-- The PureCM repository name -->
+  <Repository>Example</Repository>
+
+  <!-- The PureCM stream name -->
+  <Stream>Project 1/Version 1/Version 1</Stream>
+
+  <!-- The folder path where the files will be downloaded-->
+  <!-- If this is empty then the workspace will be created in the plugin data directory-->
+  <Path></Path>
+
+</Config>
